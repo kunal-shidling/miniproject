@@ -1,0 +1,57 @@
+# Integrated Meeting Pipeline Requirements
+# Combines face recognition with audio transcription and summarization
+
+# ==================== Face Recognition Dependencies ====================
+# Computer vision
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Face detection and recognition
+mtcnn>=0.1.1
+tensorflow>=2.13.0  # Required by MTCNN
+facenet-pytorch>=2.5.3
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# ==================== Audio Processing Dependencies ====================
+# Audio recording
+sounddevice>=0.4.6
+scipy>=1.11.0
+
+# Speech recognition
+openai-whisper>=20231117
+
+# Audio file handling
+wave
+pydub>=0.25.1
+
+# ==================== Transcription & Summarization ====================
+# Groq API for summarization
+groq>=0.4.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# ==================== Database ====================
+# MongoDB
+pymongo>=4.6.0
+
+# SSL certificates for MongoDB Atlas
+certifi>=2023.7.22
+
+# ==================== Utilities ====================
+# Logging and utilities
+colorama>=0.4.6
+tqdm>=4.66.0
+
+# ==================== Optional Dependencies ====================
+# GPU acceleration (optional)
+# torch-cuda  # Uncomment if using CUDA
+
+# Audio enhancement (optional)
+# noisereduce>=3.0.0
+# librosa>=0.10.0
