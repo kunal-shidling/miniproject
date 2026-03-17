@@ -122,7 +122,7 @@ MONGODB_URI = "mongodb+srv://meetingapp:SecurePass123!@cluster0.xxxxx.mongodb.ne
 
 **Example:**
 ```python
-MONGODB_URI = "mongodb+srv://meetingapp:MyPass123@cluster0.abc123.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URI = "mongodb+srv://.net/?retryWrites=true&w=majority"
 ```
 
 ### Step 6: Test Database Connection
