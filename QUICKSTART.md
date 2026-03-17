@@ -23,7 +23,7 @@ Edit `opencv/config.py` line 45:
 
 ```python
 # For MongoDB Atlas (recommended)
-MONGODB_URI = "mongodb+srv://username:password@cluster.mongodb.net/"
+MONGODB_URI = "mongodb+srv://.mongodb.net/"
 
 # OR for local MongoDB
 MONGODB_URI = "mongodb://localhost:27017/"
